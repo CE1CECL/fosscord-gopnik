@@ -1,5 +1,5 @@
 {
-	"name": "@ce1cecl/fosscord-gopnik",
+	"name": "fosscord-gopnik",
 	"version": "1.0.0",
 	"description": "fosscord.js Monkey-Patch to allow connections to Fosscord",
 	"main": "build/index.js",
@@ -11,7 +11,8 @@
 	"author": "MaddyUnderStars & fosscord.js: Amish Shah <amish@shah.gg>",
 	"license": "ISC",
 	"dependencies": {
-		"@ce1cecl/fosscord.js": "^13.5.1"
+		"fosscord.js": "git+https://github.com/CE1CECL/fosscord.js.git",
+		"discord.js": "^13.5.1"
 	},
 	"devDependencies": {
 		"typescript": "^4.5.4"
