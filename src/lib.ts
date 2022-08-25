@@ -1,4 +1,4 @@
-import Discord from 'discord.js';
+import Discord from 'fosscord.js';
 import InstanceClientUtil from "./Instances/InstanceClientUtil";
 
 interface patchFunction {
